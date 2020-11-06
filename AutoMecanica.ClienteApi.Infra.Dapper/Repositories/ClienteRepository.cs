@@ -18,7 +18,18 @@ namespace AutoMecanica.ClienteApi.Infra.Dapper.Repositories
         public ClienteRepository(IConfiguration configuration)
         {
             _configuration = configuration;
-            connectionString = _configuration.GetConnectionString("AutoMecanica-ConnectionString");
+
+            var statusApp = configuration.GetSection("AppStatus");
+
+            if (statusApp.Key == "Producao")
+            {
+                connectionString = _configuration.GetConnectionString("AutoMecanica-Producao");
+            }
+            else
+            {
+
+                connectionString = _configuration.GetConnectionString("AutoMecanica-ConnectionString");
+            }
         }
 
         public int Add(Cliente cliente)
