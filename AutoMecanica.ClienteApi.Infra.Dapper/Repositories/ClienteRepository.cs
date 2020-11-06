@@ -30,6 +30,7 @@ namespace AutoMecanica.ClienteApi.Infra.Dapper.Repositories
 
                 connectionString = _configuration.GetConnectionString("AutoMecanica-ConnectionString");
             }
+            
         }
 
         public int Add(Cliente cliente)
