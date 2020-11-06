@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoMecanica.ClienteApi.Host", "AutoMecanica.ClienteAPI\AutoMecanica.ClienteApi.Host.csproj", "{994D65EB-1A59-4526-8F35-1AAC5531FC5A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B0AA5433-B67A-407A-8C89-7100F3C21DC6} = {B0AA5433-B67A-407A-8C89-7100F3C21DC6}
+		{8ED56373-691F-40C5-838F-0DD7E0C8F75F} = {8ED56373-691F-40C5-838F-0DD7E0C8F75F}
+		{586F94B1-5FD0-4DE7-AA71-E00EAEF97C30} = {586F94B1-5FD0-4DE7-AA71-E00EAEF97C30}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoMecanica.ClienteApi.Domain", "AutoMecanica.ClienteApi.Domain\AutoMecanica.ClienteApi.Domain.csproj", "{8ED56373-691F-40C5-838F-0DD7E0C8F75F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoMecanica.ClienteApi.Shared", "AutoMecanica.ClienteApi.Shared\AutoMecanica.ClienteApi.Shared.csproj", "{586F94B1-5FD0-4DE7-AA71-E00EAEF97C30}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoMecanica.ClienteApi.Tests", "AutoMecanica.ClienteApi.Tests\AutoMecanica.ClienteApi.Tests.csproj", "{A3A43960-B3DF-4A07-8D6E-808DCD9E22E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoMecanica.ClienteApi.Infra.Dapper", "AutoMecanica.ClienteApi.Infra.Dapper\AutoMecanica.ClienteApi.Infra.Dapper.csproj", "{B0AA5433-B67A-407A-8C89-7100F3C21DC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Host", "1.Host", "{F5E8F01B-D84C-41CA-82A7-1B39170DDE24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Application", "2.Application", "{A054B0C5-447E-4536-90D1-FC4FCDA41AD6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Domain", "3.Domain", "{5885C613-6853-4348-A0BC-56BE0458BD87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Infra", "4.Infra", "{C4666254-7CA2-40AE-A7D4-E3084B711B1F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoMecanica.ClienteApi.Application", "AutoMecanica.ClienteApi.Application\AutoMecanica.ClienteApi.Application.csproj", "{3FE9D511-BF79-4D37-BE9A-85926008AC93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{994D65EB-1A59-4526-8F35-1AAC5531FC5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{994D65EB-1A59-4526-8F35-1AAC5531FC5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{994D65EB-1A59-4526-8F35-1AAC5531FC5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{994D65EB-1A59-4526-8F35-1AAC5531FC5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ED56373-691F-40C5-838F-0DD7E0C8F75F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ED56373-691F-40C5-838F-0DD7E0C8F75F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ED56373-691F-40C5-838F-0DD7E0C8F75F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ED56373-691F-40C5-838F-0DD7E0C8F75F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{586F94B1-5FD0-4DE7-AA71-E00EAEF97C30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{586F94B1-5FD0-4DE7-AA71-E00EAEF97C30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{586F94B1-5FD0-4DE7-AA71-E00EAEF97C30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{586F94B1-5FD0-4DE7-AA71-E00EAEF97C30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3A43960-B3DF-4A07-8D6E-808DCD9E22E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3A43960-B3DF-4A07-8D6E-808DCD9E22E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3A43960-B3DF-4A07-8D6E-808DCD9E22E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3A43960-B3DF-4A07-8D6E-808DCD9E22E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0AA5433-B67A-407A-8C89-7100F3C21DC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0AA5433-B67A-407A-8C89-7100F3C21DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0AA5433-B67A-407A-8C89-7100F3C21DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0AA5433-B67A-407A-8C89-7100F3C21DC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FE9D511-BF79-4D37-BE9A-85926008AC93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FE9D511-BF79-4D37-BE9A-85926008AC93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FE9D511-BF79-4D37-BE9A-85926008AC93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FE9D511-BF79-4D37-BE9A-85926008AC93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{994D65EB-1A59-4526-8F35-1AAC5531FC5A} = {F5E8F01B-D84C-41CA-82A7-1B39170DDE24}
+		{8ED56373-691F-40C5-838F-0DD7E0C8F75F} = {5885C613-6853-4348-A0BC-56BE0458BD87}
+		{B0AA5433-B67A-407A-8C89-7100F3C21DC6} = {C4666254-7CA2-40AE-A7D4-E3084B711B1F}
+		{3FE9D511-BF79-4D37-BE9A-85926008AC93} = {A054B0C5-447E-4536-90D1-FC4FCDA41AD6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E2D5F33-D980-4CD9-9990-4EDCF98EC97D}
+	EndGlobalSection
+EndGlobal
